@@ -1,19 +1,4 @@
-const routeTypes = {
-    spells: {
-        searchBy: 'spell'
-    },
-    characters: {
-        searchBy: 'fullName'
-    },
-    books: {
-        searchBy: 'title'
-    }
-}
-
-const langs = [
-    'en',
-    'es'
-]
+import { routeTypes, langs } from './consts.js'
 
 const routeParamsAndReturn = params => {
     let { req, res, data } = params
