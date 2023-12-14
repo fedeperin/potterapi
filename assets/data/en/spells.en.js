@@ -1,4 +1,4 @@
-[
+export default [
     {
         "spell": "Accio",
         "use": "Summoning charm"

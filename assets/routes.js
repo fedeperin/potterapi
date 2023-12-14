@@ -57,7 +57,7 @@ export const routeStructure = async (req, res) => {
     if(!langs.includes(lang)) res.status(404).json({ error: 'Invalid language' })
     
     try {
-        let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.json`, { assert: { type: 'json' } })
+        let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
 
         routeParamsAndReturn({ req, res, data })
     }catch({ message, code }) {
@@ -69,10 +69,10 @@ export const pickRandomItem = async (req, res) => {
     const { lang, type: routeType } = req.params
 
     try {
-        const { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.json`, { assert: { type: 'json' } })
-        
+        const { default:  data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+
         res.json(data[Math.floor(Math.random() * data.length)])
-    }catch(error) {
-        errorHandling(error, res)
+    }catch({ message, code }) {
+        res.status(404).json({ error: message || code })
     }
 }

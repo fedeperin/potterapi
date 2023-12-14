@@ -1,4 +1,4 @@
-[
+export default [
     {
         "number": 1,
         "title": "Harry Potter and the Sorcerer's Stone",

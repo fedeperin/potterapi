@@ -1,4 +1,4 @@
-[
+export default [
     {
         "fullName": "Harry James Potter",
         "nickname": "Harry",
