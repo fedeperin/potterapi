@@ -8,6 +8,7 @@ app.use(express.json())
 
 app.get('/:lang/:type', routeStructure)
 app.get('/:lang/:type/random', pickRandomItem)
+app.get('/', (req, res) => res.send('ApiPotter!'))
 
 app.listen(PORT, () => console.log(`Server running at port ${ PORT }`))
 
