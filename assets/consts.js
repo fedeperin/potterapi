@@ -1,6 +1,7 @@
 export const langs = [
     'en',
-    'es'
+    'es',
+    'fr'
 ]
 
 export const routeTypes = {
