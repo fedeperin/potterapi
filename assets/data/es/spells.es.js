@@ -9,7 +9,7 @@ export default [
     },
     {
         "spell": "Impervius",
-        "use": "Protege al lanzador de una variedad de sustancias, incluidos el agua y el fuego."
+        "use": "Protege al lanzador de una variedad de sustancias, incluidos el agua y el fuego"
     },
     {
         "spell": "Wingardium Leviosa/Locomotor",
@@ -81,7 +81,7 @@ export default [
     },
     {
         "spell": "Confundo",
-        "use": "Causa confusiones y hace que otros sean fácilmente susceptibles a la influencia."
+        "use": "Causa confusiones y hace que otros sean fácilmente susceptibles a la influencia"
     },
     {
         "spell": "Expecto Patronum",
@@ -121,11 +121,11 @@ export default [
     },
     {
         "spell": "Finite Incantatem",
-        "use": "Niega los efectos de muchos hechizos."
+        "use": "Niega los efectos de muchos hechizos"
     },
     {
         "spell": "Erecto",
-        "use": "Levanta carpas u otras estructuras."
+        "use": "Levanta carpas u otras estructuras"
     },
     {
         "spell": "Diffindo",
@@ -181,7 +181,7 @@ export default [
     },
     {
         "spell": "Specialis Revelio",
-        "use": "Revela propiedades mágicas ocultas en un objeto."
+        "use": "Revela propiedades mágicas ocultas en un objeto"
     },
     {
         "spell": "Descendo",
@@ -217,7 +217,7 @@ export default [
     },
     {
         "spell": "Legilimens",
-        "use": "Revela recuerdos y pensamientos del objetivo."
+        "use": "Revela recuerdos y pensamientos del objetivo"
     },
     {
         "spell": "Duro",

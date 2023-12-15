@@ -121,7 +121,7 @@ export default [
     },
     {
         "spell": "Finite Incantatem",
-        "use": "Negates the effects of many spells."
+        "use": "Negates the effects of many spells"
     },
     {
         "spell": "Erecto",
