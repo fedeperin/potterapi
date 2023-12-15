@@ -38,8 +38,8 @@ const routeParamsAndReturn = params => {
 export const routeStructure = async (req, res) => {
     const { type: routeType, lang } = req.params
 
-    if(!Object.keys(routeTypes).includes(routeType)) res.status(404).json({ error: 'Invalid type of data' })
-    if(!langs.includes(lang)) res.status(404).json({ error: 'Invalid language' })
+    if(!Object.keys(routeTypes).includes(routeType)) return res.status(404).json({ error: 'Invalid type of data' })
+    if(!langs.includes(lang)) return res.status(404).json({ error: 'Invalid language' })
     
     try {
         let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
