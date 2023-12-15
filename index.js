@@ -1,5 +1,5 @@
 import express from 'express'
-import { routeStructure, pickRandomItem, pureLangRoute } from './assets/routes.js'
+import { routeStructure, pickRandomItem, pureLangRoute, homePage } from './assets/routes.js'
 import cors from 'cors'
 
 const app = express()
@@ -11,6 +11,6 @@ app.use(cors())
 app.get('/:lang', pureLangRoute)
 app.get('/:lang/:type', routeStructure)
 app.get('/:lang/:type/random', pickRandomItem)
-app.get('/', (req, res) => res.redirect('https://github.com/fedeperin/potterapi'))
+app.get('/', homePage)
 
 app.listen(PORT, () => console.log(`Server running at port ${ PORT }`))
