@@ -3,7 +3,7 @@ export default [
         "number": 1,
         "title": "Harry Potter y la piedra filosofal",
         "originalTitle": "Harry Potter and the Sorcerer's Stone",
-        "releaseDate": "June 26, 1997",
+        "releaseDate": "Jun 26, 1997",
         "description": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
         "pages": 223,
         "cover": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/covers/1.png"
@@ -12,7 +12,7 @@ export default [
         "number": 2,
         "title": "Harry Potter y la cámara secreta",
         "originalTitle": "Harry Potter and the chamber of secrets",
-        "releaseDate": "July 2, 1998",
+        "releaseDate": "Jul 2, 1998",
         "description": "Harry Potter y los estudiantes de segundo año investigan una malévola amenaza para sus compañeros de clases de Hogwarts, una amenazante bestia que se esconde dentro del castillo.",
         "pages": 251,
         "cover": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/covers/2.png"
