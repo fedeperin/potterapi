@@ -11,6 +11,6 @@ app.use(cors())
 app.get('/:lang', pureLangRoute)
 app.get('/:lang/:type', routeStructure)
 app.get('/:lang/:type/random', pickRandomItem)
-app.get('/', (req, res) => res.send('Potterapi!'))
+app.get('/', (req, res) => res.redirect('https://github.com/fedeperin/potterapi'))
 
 app.listen(PORT, () => console.log(`Server running at port ${ PORT }`))
