@@ -1,5 +1,6 @@
 import express from 'express'
 import { routeStructure, pickRandomItem } from './assets/routes.js'
+import cors from 'cors'
 
 const app = express()
 const PORT = process.env.PORT || 3000
