@@ -69,7 +69,7 @@ export default [
         "fullName": "Charlie Weasley",
         "nickname": "Charlie",
         "hogwartsHouse": "Gryffindor",
-        "interpretedBy": false,
+        "interpretedBy": "",
         "children": [],
         "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/charlie_weasley.png"
     },
