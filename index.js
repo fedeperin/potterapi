@@ -9,6 +9,6 @@ app.use(cors())
 
 app.get('/:lang/:type', routeStructure)
 app.get('/:lang/:type/random', pickRandomItem)
-app.get('/', (req, res) => res.send('ApiPotter!'))
+app.get('/', (req, res) => res.send('Potterapi!'))
 
 app.listen(PORT, () => console.log(`Server running at port ${ PORT }`))
