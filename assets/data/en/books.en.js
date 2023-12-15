@@ -6,7 +6,7 @@ export default [
         "releaseDate": "Jun 26, 1997",
         "description": "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner.",
         "pages": 223,
-        "cover": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/covers/1.png"
+        "cover": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/covers/1.png"
     },
     {
         "number": 2,

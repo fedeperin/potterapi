@@ -9,7 +9,7 @@ export default [
             "Albus Severus Potter",
             "Lily Luna Potter"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/harry_potter.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/harry_potter.png"
     },
     {
         "fullName": "Hermione Jean Granger",
@@ -20,7 +20,7 @@ export default [
             "Rose Granger-Weasley",
             "Hugo Granger-Weasley"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/hermione_granger.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/hermione_granger.png"
     },
     {
         "fullName": "Ron Weasley",
@@ -31,7 +31,7 @@ export default [
             "Rose Granger-Weasley",
             "Hugo Granger-Weasley"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/ron_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/ron_weasley.png"
     },
     {
         "fullName": "Fred Weasley",
@@ -39,7 +39,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "James Phelps",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/fred_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/fred_weasley.png"
     },
     {
         "fullName": "George Weasley",
@@ -47,7 +47,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Oliver Phelps",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/george_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/george_weasley.png"
     },
     {
         "fullName": "Bill Weasley",
@@ -55,7 +55,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Domhnall Gleeson",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/bill_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/bill_weasley.png"
     },
     {
         "fullName": "Percy Weasley",
@@ -63,7 +63,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Chris Rankin",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/percy_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/percy_weasley.png"
     },
     {
         "fullName": "Charlie Weasley",
@@ -71,7 +71,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": false,
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/charlie_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/charlie_weasley.png"
     },
     {
         "fullName": "Ginny Weasley",
@@ -83,7 +83,7 @@ export default [
             "Albus Severus Potter",
             "Lily Luna Potter"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/ginny_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/ginny_weasley.png"
     },
     {
         "fullName": "Molly Weasley",
@@ -99,7 +99,7 @@ export default [
             "Charlie Weasley",
             "Ginny Weasley"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/molly_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/molly_weasley.png"
     },
     {
         "fullName": "Arthur Weasley",
@@ -115,7 +115,7 @@ export default [
             "Charlie Weasley",
             "Ginny Weasley"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/arthur_weasley.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/arthur_weasley.png"
     },
     {
         "fullName": "Neville Longbottom",
@@ -123,7 +123,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Matthew Lewis",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/neville_longbottom.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/neville_longbottom.png"
     },
     {
         "fullName": "Luna Lovegood",
@@ -131,7 +131,7 @@ export default [
         "hogwartsHouse": "Ravenclaw",
         "interpretedBy": "Evanna Lynch",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/luna_lovegood.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/luna_lovegood.png"
     },
     {
         "fullName": "Draco Malfoy",
@@ -141,7 +141,7 @@ export default [
         "children": [
             "Scorpius Malfoy"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/draco_malfoy.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/draco_malfoy.png"
     },
     {
         "fullName": "Albus Percival Wulfric Brian Dumbledore",
@@ -149,7 +149,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Richard Harris",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/albus_dumbledore.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/albus_dumbledore.png"
     },
     {
         "fullName": "Minerva McGonagall",
@@ -157,7 +157,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Maggie Smith",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/minerva_mcgonnagall.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/minerva_mcgonnagall.png"
     },
     {
         "fullName": "Remus Lupin",
@@ -167,7 +167,7 @@ export default [
         "children": [
             "Ted Lupin"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/remus_lupin.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/remus_lupin.png"
     },
     {
         "fullName": "Rubeus Hagrid",
@@ -175,7 +175,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Robbie Coltrane",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/rubeus_hagrid.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/rubeus_hagrid.png"
     },
     {
         "fullName": "Sirius Black",
@@ -183,7 +183,7 @@ export default [
         "hogwartsHouse": "Gryffindor",
         "interpretedBy": "Gary Oldman",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/sirius_black.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/sirius_black.png"
     },
     {
         "fullName": "Severus Snape",
@@ -191,7 +191,7 @@ export default [
         "hogwartsHouse": "Slytherin",
         "interpretedBy": "Alan Rickman",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/severus_snape.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/severus_snape.png"
     },
     {
         "fullName": "Bellatrix Lestrange",
@@ -201,7 +201,7 @@ export default [
         "children": [
             "Delphi"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/bellatrix_lestrange.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/bellatrix_lestrange.png"
     },
     {
         "fullName": "Lord Voldemort",
@@ -211,6 +211,6 @@ export default [
         "children": [
             "Delphi"
         ],
-        "image": "https://raw.githubusercontent.com/fedeperin/apipotter/main/images/characters/lord_voldemort.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/lord_voldemort.png"
     }
 ]
