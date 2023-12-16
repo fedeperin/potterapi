@@ -143,8 +143,8 @@ Param | Recieves | Description |
 ----- | -------- | ----------- |
 `index` | number | Returns only one item, the one that on the whole list has the index selected |
 `max` | number | Returns the whole list cropped by the number passed |
-`page` | number | If `max` is used, you can also use this param to indicate where to star cropping |
-`search` | string | Searches between the items and returns the best matches |
+`page` | number | If `max` is used, you can also use this param to indicate where to start cropping |
+`search` | string | Searches in all the items and returns the best matches |
 
-# Previous APIs
+## Previous APIs
 This is a version that unifies my [Harry Potter API](https://github.com/fedeperin/harry-potter-api) and my [Harry Potter API English](https://github.com/fedeperin/harry-potter-api-english), also adding more info. This API is using Express.js instead of json-server.
