@@ -146,5 +146,32 @@ Param | Recieves | Description |
 `page` | number | If `max` is used, you can also use this param to indicate where to start cropping |
 `search` | string | Searches in all the items and returns the best matches |
 
+## Examples
+### Javascript
+```javascript
+const fetchSpells = async () => {
+    const res = await fetch('https://potterapi.onrender.com/en/spells')
+    const spells = await res.json()
+
+    return spells
+}
+```
+```javascript
+fetch('https://potterapi.onrender.com/es/characters?search=Weasley')
+    .then(res => res.json())
+    .then(res => {
+        console.log(res)
+    })
+```
+### Python
+```python
+import requests
+
+def get_book():
+    response = requests.get('https://potterapi.onrender.com/en/books')
+    books = response.json()
+    return books
+```
+
 ## Previous APIs
 This is a version that unifies my [Harry Potter API](https://github.com/fedeperin/harry-potter-api) and my [Harry Potter API English](https://github.com/fedeperin/harry-potter-api-english), also adding more info. This API is using Express.js instead of json-server.
