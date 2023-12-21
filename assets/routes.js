@@ -43,6 +43,10 @@ export const routeStructure = async (req, res) => {
     
     try {
         let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+        data = data.map((item, i) => {
+            item.index = i
+            return item
+        })
 
         routeParamsAndReturn({ req, res, data })
     }catch({ message, code }) {
@@ -54,7 +58,11 @@ export const pickRandomItem = async (req, res) => {
     const { lang, type: routeType } = req.params
 
     try {
-        const { default:  data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+        let { default:  data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+        data = data.map((item, i) => {
+            item.index = i
+            return item
+        })
 
         res.json(data[Math.floor(Math.random() * data.length)])
     }catch({ message, code }) {
