@@ -80,6 +80,6 @@ export const homePage = (req, res) => {
     res.json({
         message: 'This is PotterAPI, a REST API that stores images and information about Harry Potter characters, books and spells. For more info about the routes and query params, visit the github repo.',
         repo: 'https://github.com/fedeperin/potterapi',
-        languages: Object.keys(langs).map(lang => `/${lang}`)
+        languages: Object.keys(langs)
     })
 }
