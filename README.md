@@ -7,7 +7,7 @@ This API is available in the following languages:
 - [:us: English](https://potterapi.onrender.com/en)
 - [:es: Español](https://potterapi.onrender.com/es)
 - [:fr: Français](https://potterapi.onrender.com/fr)
-- [:pt: Português](https://potterapi.onrender.com/pt)
+- [:portugal: Português](https://potterapi.onrender.com/pt)
 
 If there's any problem with the translations, you can [open an issue](https://github.com/fedeperin/potterapi/issues/new) or a [pull request](https://github.com/fedeperin/potterapi/pulls).
 
