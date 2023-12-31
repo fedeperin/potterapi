@@ -1,10 +1,10 @@
 export const langs = {
     en: {
-        message: "This is the route of the English language",
+        message: "This is the endpoint of the English language",
         fullName: "English"
     },
     es: {
-        message: "Esta es la ruta de la lengua española",
+        message: "Esta es el endpoint de la lengua española",
         fullName: "Español"
     },
     fr: {
