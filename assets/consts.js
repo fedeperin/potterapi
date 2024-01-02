@@ -4,7 +4,7 @@ export const langs = {
         fullName: "English"
     },
     es: {
-        message: "Esta es el endpoint de la lengua española",
+        message: "Este es el endpoint de la lengua española",
         fullName: "Español"
     },
     fr: {
