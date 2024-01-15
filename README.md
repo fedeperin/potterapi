@@ -1,4 +1,6 @@
 # PotterAPI
+> [!IMPORTANT]  
+> The new base URL is [https://potterapi-fedeperin.vercel.app](https://potterapi-fedeperin.vercel.app/) but you can still use the old one (not recommended) [https://potterapi-fedeper.onrender.com/](https://potterapi-fedeper.onrender.com/)
 [PotterAPI](https://potterapi-fedeperin.vercel.app/) is a Harry Potter API developed with Express.js and available in multiple languages.  
 This API stores information and images of books, characters and spells.
 
