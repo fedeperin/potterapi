@@ -220,5 +220,15 @@ export default [
         "interpretedBy": "Robert Pattinson",
         "children": [],
         "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/cedric_diggory.png"
+    },
+    {
+        "fullName": "Ninfadora Tonks",
+        "nickname": "Tonks",
+        "hogwartsHouse": "Lufa-lufa",
+        "interpretedBy": "Natalia Tena",
+        "children": [
+            "Ted Lupin"
+        ],
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/nymphadora_tonks.png"
     }
 ]
