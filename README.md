@@ -9,6 +9,7 @@ This API stores information and images of books, characters and spells.
 This API is available in the following languages:
 - [:us: English](https://potterapi-fedeperin.vercel.app/en)
 - [:es: Español](https://potterapi-fedeperin.vercel.app/es)
+- [:it: Italiano](https://potterapi-fedeperin.vercel.app/it)
 - [:fr: Français](https://potterapi-fedeperin.vercel.app/fr)
 - [:portugal: Português](https://potterapi-fedeperin.vercel.app/pt)
 
