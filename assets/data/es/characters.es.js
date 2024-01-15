@@ -212,5 +212,13 @@ export default [
             "Delphi"
         ],
         "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/lord_voldemort.png"
+    },
+    {
+        "fullName": "Cedric Diggory",
+        "nickname": "Cedric",
+        "hogwartsHouse": "Hufflepuff",
+        "interpretedBy": "Robert Pattinson",
+        "children": [],
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/cedric_diggory.png"
     }
 ]
