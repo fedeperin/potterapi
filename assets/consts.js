@@ -11,6 +11,10 @@ export const langs = {
         message: "C'est la route de la langue française",
         fullName: "Français"
     },
+    it: {
+        message: "Questa è la rotta della lingua italiana",
+        fullName: "Italiano"
+    },
     pt: {
         message: "Esta é a rota da língua portuguesa",
         fullName: "Português"
