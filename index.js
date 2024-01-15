@@ -21,3 +21,5 @@ app.get('/:lang/:type/random', pickRandomItem)
 app.get('/', homePage)
 
 app.listen(PORT, () => console.log(`Server running at port ${ PORT }`))
+
+export default app
