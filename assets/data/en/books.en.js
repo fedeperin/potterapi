@@ -21,7 +21,7 @@ export default [
         "number": 3,
         "title": "Harry Potter and the Prisoner of Azkaban",
         "originalTitle": "Harry Potter and the Prisoner of Azkaban",
-        "releseDay": "Jul 8, 1999",
+        "releaseDate": "Jul 8, 1999",
         "description": "Harry's third year of studies at Hogwarts is threatened by Sirius Black's escape from Azkaban prison. Apparently, it is a dangerous wizard who was an accomplice of Lord Voldemort and who will try to take revenge on Harry Potter.",
         "pages": 317,
         "cover": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/covers/3.png"
