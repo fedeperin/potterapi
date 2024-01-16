@@ -17,7 +17,7 @@ If there's any problem with the translations, you can [open an issue](https://gi
 
 ## Endpoints
 The endpoints are the following:
-<details open>
+<details>
     <summary><code>/:lang/books</code></summary>
     Returns information and images about Harry Potter books.
     <table>
@@ -67,7 +67,7 @@ The endpoints are the following:
         </tbody>
     </table>
 </details>
-<details open>
+<details>
     <summary><code>/:lang/characters</code></summary>
     Returns information and images of Harry Potter characters.
     <table>
@@ -117,7 +117,7 @@ The endpoints are the following:
         </tbody>
     </table>
 </details>
-<details open>
+<details>
     <summary><code>/:lang/spells</code></summary>
     Returns all the spells mentioned in the saga with a description.
     <table>
@@ -181,6 +181,28 @@ def get_book():
     response = requests.get('https://potterapi-fedeperin.vercel.app/en/books')
     books = response.json()
     return books
+```
+
+## Running locally
+### Clone Repo:
+With HTTPS
+```bash
+$ git clone https://github.com/fedeperin/potterapi.git
+```
+With SSH
+```bash
+$ git clone https://github.com/fedeperin/potterapi.git
+```
+### Run in dev mode
+Run this to start a local server:
+```bash
+$ npm run dev
+```
+
+### Test
+Before submitting a PR or making a commit run the following command:
+```bash
+$ npm run test
 ```
 
 ## Previous APIs
