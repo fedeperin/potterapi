@@ -17,7 +17,7 @@ If there's any problem with the translations, you can [open an issue](https://gi
 
 ## Endpoints
 The endpoints are the following:
-<details>
+<details open>
     <summary><code>/:lang/books</code></summary>
     Returns information and images about Harry Potter books.
     <table>
@@ -67,7 +67,7 @@ The endpoints are the following:
         </tbody>
     </table>
 </details>
-<details>
+<details open>
     <summary><code>/:lang/characters</code></summary>
     Returns information and images of Harry Potter characters.
     <table>
@@ -117,7 +117,7 @@ The endpoints are the following:
         </tbody>
     </table>
 </details>
-<details>
+<details open>
     <summary><code>/:lang/spells</code></summary>
     Returns all the spells mentioned in the saga with a description.
     <table>
