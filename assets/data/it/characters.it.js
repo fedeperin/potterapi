@@ -230,5 +230,15 @@ export default [
             "Ted Lupin"
         ],
         "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/nymphadora_tonks.png"
+    },
+    {
+        "fullName": "James Potter",
+        "nickname": "James",
+        "hogwartsHouse": "Grifondoro",
+        "interpretedBy": "Adrian Rawlins",
+        "children": [
+            "Harry Potter"
+        ],
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/james_potter.png"
     }
 ]
