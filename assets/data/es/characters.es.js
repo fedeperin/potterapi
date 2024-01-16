@@ -2,7 +2,7 @@ export default [
     {
         "fullName": "Harry James Potter",
         "nickname": "Harry",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "James Sirius Potter",
             "Albus Severus Potter",
@@ -12,7 +12,7 @@ export default [
     {
         "fullName": "Hermione Jean Granger",
         "nickname": "Hermione",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "Rose Granger-Weasley",
             "Hugo Granger-Weasley"
@@ -21,7 +21,7 @@ export default [
     {
         "fullName": "Ron Weasley",
         "nickname": "Ron",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "Rose Granger-Weasley",
             "Hugo Granger-Weasley"
@@ -30,37 +30,37 @@ export default [
     {
         "fullName": "Fred Weasley",
         "nickname": "Fred",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "George Weasley",
         "nickname": "George",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Bill Weasley",
         "nickname": "Bill",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Percy Weasley",
         "nickname": "Percy",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Charlie Weasley",
         "nickname": "Charlie",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Ginny Weasley",
         "nickname": "Ginny",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "James Sirius Potter",
             "Albus Severus Potter",
@@ -70,7 +70,7 @@ export default [
     {
         "fullName": "Molly Weasley",
         "nickname": "Molly",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "Ron Weasley",
             "Fred Weasley",
@@ -84,7 +84,7 @@ export default [
     {
         "fullName": "Arthur Weasley",
         "nickname": "Arthur",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "Ron Weasley",
             "Fred Weasley",
@@ -98,19 +98,19 @@ export default [
     {
         "fullName": "Neville Longbottom",
         "nickname": "Neville",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Luna Lovegood",
         "nickname": "Luna",
-        "house": "Ravenclaw",
+        "hogwartsHouse": "Ravenclaw",
         "children": []
     },
     {
         "fullName": "Draco Malfoy",
         "nickname": "Draco",
-        "house": "Slytherin",
+        "hogwartsHouse": "Slytherin",
         "children": [
             "Scorpius Malfoy"
         ]
@@ -118,19 +118,19 @@ export default [
     {
         "fullName": "Albus Percival Wulfric Brian Dumbledore",
         "nickname": "Dumbledore",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Minerva McGonagall",
         "nickname": "Minerva",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Remus Lupin",
         "nickname": "Lupin",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": [
             "Ted Lupin"
         ]
@@ -138,25 +138,25 @@ export default [
     {
         "fullName": "Rubeus Hagrid",
         "nickname": "Hagrid",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Sirius Black",
         "nickname": "Sirius",
-        "house": "Gryffindor",
+        "hogwartsHouse": "Gryffindor",
         "children": []
     },
     {
         "fullName": "Severus Snape",
         "nickname": "Snape",
-        "house": "Slytherin",
+        "hogwartsHouse": "Slytherin",
         "children": []
     },
     {
         "fullName": "Bellatrix Lestrange",
         "nickname": "Bella",
-        "house": "Slytherin",
+        "hogwartsHouse": "Slytherin",
         "children": [
             "Delphi"
         ]
@@ -164,7 +164,7 @@ export default [
     {
         "fullName": "Lord Voldemort",
         "nickname": "Voldemort",
-        "house": "Slytherin",
+        "hogwartsHouse": "Slytherin",
         "children": [
             "Delphi"
         ]
