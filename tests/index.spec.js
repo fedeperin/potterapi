@@ -85,5 +85,3 @@ describe('GET /:lang/spells', () => {
         'use': 'string'
     }, 'spells')
 })
-
-describe('GET /:lang/houses',)
