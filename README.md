@@ -109,6 +109,11 @@ The endpoints are the following:
                 <td>string</td>
                 <td>An URL to an image of the character</td>
             </tr>
+            <tr>
+                <td><code>birthdate</code></td>
+                <td>string</td>
+                <td>The birthdate of the character. Format "Month Day, Year"</td>
+            </tr>
         </tbody>
     </table>
 </details>
