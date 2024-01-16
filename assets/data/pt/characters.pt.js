@@ -157,7 +157,7 @@ export default [
         "hogwartsHouse": "Grifinória",
         "interpretedBy": "Maggie Smith",
         "children": [],
-        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/minerva_mcgonnagall.png"
+        "image": "https://raw.githubusercontent.com/fedeperin/potterapi/main/public/images/characters/minerva_mcgonagall.png"
     },
     {
         "fullName": "Remus Lupin",
