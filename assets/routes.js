@@ -35,6 +35,18 @@ const routeParamsAndReturn = params => {
     res.json(data)
 }
 
+const getFileData = async (lang, routeType) => {
+    const { default: referenceData } = await import(`../assets/data/basefiles/${ routeType }.js`)
+    let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+    data = data.map((item, i) => {
+        item = { ...referenceData[i], ...item }
+        item.index = i
+        return item
+    })
+
+    return data
+}
+
 export const routeStructure = async (req, res) => {
     const { type: routeType, lang } = req.params
 
@@ -42,11 +54,7 @@ export const routeStructure = async (req, res) => {
     if(!Object.keys(langs).includes(lang)) return res.status(404).json({ error: 'Invalid language' })
     
     try {
-        let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
-        data = data.map((item, i) => {
-            item.index = i
-            return item
-        })
+        const data = await getFileData(lang, routeType)
 
         routeParamsAndReturn({ req, res, data })
     }catch({ message, code }) {
@@ -58,11 +66,7 @@ export const pickRandomItem = async (req, res) => {
     const { lang, type: routeType } = req.params
 
     try {
-        let { default:  data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
-        data = data.map((item, i) => {
-            item.index = i
-            return item
-        })
+        const data = await getFileData(lang, routeType)
 
         res.json(data[Math.floor(Math.random() * data.length)])
     }catch({ message, code }) {
