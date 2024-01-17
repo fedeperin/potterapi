@@ -18,7 +18,7 @@ If there's any problem with the translations, you can [open an issue](https://gi
 ## Endpoints
 The endpoints are the following:
 <details>
-    <summary><code>/:lang/books</code></summary>
+    <summary><code>GET /:lang/books</code></summary>
     Returns information and images about Harry Potter books.
     <table>
         <thead>
@@ -68,7 +68,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>/:lang/characters</code></summary>
+    <summary><code>GET /:lang/characters</code></summary>
     Returns information and images of Harry Potter characters.
     <table>
         <thead>
@@ -118,7 +118,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>/:lang/houses</code></summary>
+    <summary><code>GET /:lang/houses</code></summary>
     Returns the four Hogwarts Houses with some extra data
     <table>
         <thead>
@@ -158,7 +158,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>/:lang/spells</code></summary>
+    <summary><code>GET /:lang/spells</code></summary>
     Returns all the spells mentioned in the saga with a description.
     <table>
         <thead>
