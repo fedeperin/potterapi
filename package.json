@@ -23,5 +23,8 @@
     "nodemon": "^3.0.2",
     "supertest": "^6.3.4"
   },
-  "type": "module"
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
