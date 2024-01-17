@@ -9,7 +9,7 @@ Object.keys(routeTypes).forEach(routeType => {
         structure.index = 'number'
 
         Object.keys(langs).forEach(lang => {
-            const requestUrl = `/${lang}/${ routeType }`
+            const requestUrl = `/${ lang }/${ routeType }`
     
             describe(`GET /${ lang }/${ routeType }`, () => {
                 test(`/${ lang }: should respond with a 200 status code`, async () => {
