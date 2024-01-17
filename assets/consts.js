@@ -23,15 +23,44 @@ export const langs = {
 
 export const routeTypes = {
     books: {
-        searchBy: "title"
+        searchBy: "title",
+        structure: {
+            'number': 'number',
+            'title': 'string',
+            'originalTitle': 'string',
+            'releaseDate': 'string',
+            'description': 'string',
+            'pages': 'number',
+            'cover': 'string'
+        }
     },
     characters: {
-        searchBy: "fullName"
+        searchBy: "fullName",
+        structure: {
+            'fullName': 'string',
+            'nickname': 'string',
+            'hogwartsHouse': 'string',
+            'interpretedBy': 'string',
+            'children': 'object',
+            'image': 'string',
+            'birthdate': 'string'
+        }
     },
     houses: {
-        searchBy: "house"
+        searchBy: "house",
+        structure: {
+            'house': 'string',
+            'emoji': 'string',
+            'founder': 'string',
+            'colors': 'object',
+            'animal': 'string'
+        }
     },
     spells: {
-        searchBy: "spell"
+        searchBy: "spell",
+        structure: {
+            'spell': 'string',
+            'use': 'string'
+        }
     }
 }
