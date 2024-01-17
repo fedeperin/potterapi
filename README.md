@@ -118,6 +118,46 @@ The endpoints are the following:
     </table>
 </details>
 <details>
+    <summary><code>/:lang/houses</code></summary>
+    Returns the four Hogwarts Houses with some extra data
+    <table>
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Type</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>house</code></td>
+                <td>string</td>
+                <td>Name of the House</td>
+            </tr>
+            <tr>
+                <td><code>emoji</code></td>
+                <td>string</td>
+                <td>An emoji representing the house</td>
+            </tr>
+            <tr>
+                <td><code>founder</code></td>
+                <td>string</td>
+                <td>The name of the founder of the house</td>
+            </tr>
+            <tr>
+                <td><code>colors</code></td>
+                <td>object</td>
+                <td>An array with the colors in english of the house</td>
+            </tr>
+            <tr>
+                <td><code>animal</code></td>
+                <td>string</td>
+                <td>The animal of the house</td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+<details>
     <summary><code>/:lang/spells</code></summary>
     Returns all the spells mentioned in the saga with a description.
     <table>

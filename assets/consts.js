@@ -30,5 +30,8 @@ export const routeTypes = {
     },
     books: {
         searchBy: "title"
+    },
+    houses: {
+        searchBy: "house"
     }
 }

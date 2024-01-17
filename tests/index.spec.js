@@ -79,6 +79,16 @@ describe('GET /:lang/characters', () => {
     }, 'characters')
 })
 
+describe('GET /:lang/houses', () => {
+    baseTests({
+        'house': 'string',
+        'emoji': 'string',
+        'founder': 'string',
+        'colors': 'object',
+        'animal': 'string'
+    }, 'houses')
+})
+
 describe('GET /:lang/spells', () => {
     baseTests({
         'spell': 'string',
