@@ -22,16 +22,16 @@ export const langs = {
 }
 
 export const routeTypes = {
-    spells: {
-        searchBy: "spell"
+    books: {
+        searchBy: "title"
     },
     characters: {
         searchBy: "fullName"
     },
-    books: {
-        searchBy: "title"
-    },
     houses: {
         searchBy: "house"
+    },
+    spells: {
+        searchBy: "spell"
     }
 }
