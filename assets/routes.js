@@ -38,6 +38,7 @@ const routeParamsAndReturn = params => {
 const getFileData = async (lang, routeType) => {
     const { default: referenceData } = await import(`../assets/data/basefiles/${ routeType }.js`)
     let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+    
     data = data.map((item, i) => {
         item = { ...referenceData[i], ...item }
         item.index = i
