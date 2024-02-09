@@ -231,7 +231,7 @@ $ git clone https://github.com/fedeperin/potterapi.git
 ```
 With SSH
 ```bash
-$ git clone https://github.com/fedeperin/potterapi.git
+$ git clone git@github.com:fedeperin/potterapi.git
 ```
 ### Run in dev mode
 Run this to start a local server:
