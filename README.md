@@ -16,9 +16,10 @@ This API is available in the following languages:
 If there's any problem with the translations, you can [open an issue](https://github.com/fedeperin/potterapi/issues/new) or a [pull request](https://github.com/fedeperin/potterapi/pulls).
 
 ## Endpoints
-The endpoints are the following:
+The endpoints are the following:  
+<small>Note: The [lang] in the endpoint should be replaced by the corresponding language reference without the brackets (GET `/en/books` for example)</small>
 <details>
-    <summary><code>GET /:lang/books</code></summary>
+    <summary><code>GET /[lang]/books</code></summary>
     Returns information and images about Harry Potter books.
     <table>
         <thead>
@@ -68,7 +69,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>GET /:lang/characters</code></summary>
+    <summary><code>GET /[lang]/characters</code></summary>
     Returns information and images of Harry Potter characters.
     <table>
         <thead>
@@ -118,7 +119,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>GET /:lang/houses</code></summary>
+    <summary><code>GET /[lang]/houses</code></summary>
     Returns the four Hogwarts Houses with some extra data
     <table>
         <thead>
@@ -158,7 +159,7 @@ The endpoints are the following:
     </table>
 </details>
 <details>
-    <summary><code>GET /:lang/spells</code></summary>
+    <summary><code>GET /[lang]/spells</code></summary>
     Returns all the spells mentioned in the saga with a description.
     <table>
         <thead>
