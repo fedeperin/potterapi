@@ -184,7 +184,7 @@ The endpoints are the following:
     </table>
 </details>
 </br>
-You have to change the :lang by one of the two-letter codes of the languages supported.</br>
+You have to change the [lang] by one of the two-letter codes of the languages supported.</br>
 Every endpoint has a <code>/random</code>, which returns a random item of the full list. For example <code>/en/spells/random</code> returns a single random spell in English.
 
 ## Params
