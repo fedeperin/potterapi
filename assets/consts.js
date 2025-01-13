@@ -19,7 +19,7 @@ export const langs = {
         message: 'Esta é a rota da língua portuguesa',
         fullName: 'Português'
     },
-    ua: {
+    uk: {
         message: 'Це шлях української мови',
         fullName: 'Українська'
     }

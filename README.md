@@ -12,7 +12,7 @@ This API is available in the following languages:
 - [`/fr` Français](https://potterapi-fedeperin.vercel.app/fr)
 - [`/it` Italiano](https://potterapi-fedeperin.vercel.app/it)
 - [`/pt` Português](https://potterapi-fedeperin.vercel.app/pt)
-- [`/ua` Українська](https://potterapi-fedeperin.vercel.app/ua)
+- [`/uk` Українська](https://potterapi-fedeperin.vercel.app/uk)
 
 If there's any problem with the translations, you can [open an issue](https://github.com/fedeperin/potterapi/issues/new) or a [pull request](https://github.com/fedeperin/potterapi/pulls).
 
