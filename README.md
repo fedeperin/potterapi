@@ -5,6 +5,10 @@
 [PotterAPI](https://potterapi-fedeperin.vercel.app/) is a Harry Potter API developed with Express.js and available in multiple languages.  
 This API stores information and images of books, characters and spells.
 
+## Live Documentation (Swagger UI)
+
+Explore the API and its endpoints interactively using our [Harry Potter API Documentation](https://vlaurencena.github.io/harry-potter-openapi-swagger-ui/).
+
 ## Languages
 This API is available in the following languages:
 - [`/en` English](https://potterapi-fedeperin.vercel.app/en)
