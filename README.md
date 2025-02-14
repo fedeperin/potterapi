@@ -251,5 +251,33 @@ Before submitting a PR or making a commit run the following command:
 $ npm run test
 ```
 
+## Contributors
+Thanks to our contributors for their time and effort
+
+<a href="https://github.com/fedeperin">
+    <img
+    src="./readme-assets/contributors/fedeperin.png"
+    alt="fedeperin"
+    width="50"
+    height="50"
+    style="border-radius: 50%;">
+</a>
+<a href="https://github.com/vlaurencena">
+<img
+    src="./readme-assets/contributors/vlaurencena.jpg"
+    alt="vlaurencena"
+    width="50"
+    height="50"
+    style="border-radius: 50%;">
+</a>
+<a href="https://github.com/romsendz">
+    <img
+    src="./readme-assets/contributors/romsendz.jpg"
+    alt="romsendz"
+    width="50"
+    height="50"
+    style="border-radius: 50%;">
+</a>
+
 ## Previous APIs
 This is a version that unifies my [Harry Potter API](https://github.com/fedeperin/harry-potter-api) and my [Harry Potter API English](https://github.com/fedeperin/harry-potter-api-english), also adding more info. This API is using Express.js instead of json-server.
