@@ -255,28 +255,28 @@ $ npm run test
 Thanks to our contributors for their time and effort
 
 <a href="https://github.com/fedeperin">
-    <img
-    src="./readme-assets/contributors/fedeperin.png"
-    alt="fedeperin"
-    width="50"
-    height="50"
-    style="border-radius: 50%;">
+    <svg width="50" height="50">
+        <clipPath id="rounded">
+            <rect width="50" height="50" rx="50" ry="50" />
+        </clipPath>
+        <image x="0" y="0" width="50" height="50" clip-path="url(#rounded)" href="./readme-assets/contributors/fedeperin.png"/>
+    </svg>
 </a>
 <a href="https://github.com/vlaurencena">
-<img
-    src="./readme-assets/contributors/vlaurencena.jpg"
-    alt="vlaurencena"
-    width="50"
-    height="50"
-    style="border-radius: 50%;">
+    <svg width="50" height="50">
+        <clipPath id="rounded">
+            <rect width="50" height="50" rx="50" ry="50" />
+        </clipPath>
+        <image x="0" y="0" width="50" height="50" clip-path="url(#rounded)" href="./readme-assets/contributors/vlaurencena.jpg"/>
+    </svg>
 </a>
 <a href="https://github.com/romsendz">
-    <img
-    src="./readme-assets/contributors/romsendz.jpg"
-    alt="romsendz"
-    width="50"
-    height="50"
-    style="border-radius: 50%;">
+    <svg width="50" height="50">
+        <clipPath id="rounded">
+            <rect width="50" height="50" rx="50" ry="50" />
+        </clipPath>
+        <image x="0" y="0" width="50" height="50" clip-path="url(#rounded)" href="./readme-assets/contributors/romsendz.jpg"/>
+    </svg>
 </a>
 
 ## Previous APIs
