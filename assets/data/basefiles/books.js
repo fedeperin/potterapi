@@ -10,8 +10,8 @@ export default [
     },
     {
         "number": 2,
-        "title": "Harry Potter and the chamber of secrets",
-        "originalTitle": "Harry Potter and the chamber of secrets",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "originalTitle": "Harry Potter and the Chamber of Secrets",
         "releaseDate": "Jul 2, 1998",
         "description": "Harry Potter and the sophomores investigate a malevolent threat to their Hogwarts classmates, a menacing beast that hides within the castle.",
         "pages": 251,
