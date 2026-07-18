@@ -30,7 +30,7 @@ describe(`GET /:lang/:routeType`, () => {
                     
                     test(`/${ lang }: should follow the structure given`, async () => {
                         const response = await request(app).get(requestUrl).send()
-                        response.body.forEach(item => {
+                        response.body.forEach((item: Record<string, unknown>) => {
                             expect(areArraysEqual(Object.keys(item), Object.keys(structure))).toBe(true)
                         })
                     })
@@ -38,7 +38,7 @@ describe(`GET /:lang/:routeType`, () => {
                     test(`/${ lang }: should follow the types of the structure`, async () => {
                         const response = await request(app).get(requestUrl).send()
                         
-                        response.body.forEach(item => {
+                        response.body.forEach((item: Record<string, unknown>) => {
                             Object.keys(structure).forEach(key => {
                                 expect(typeof item[key]).toBe(structure[key])
                             })

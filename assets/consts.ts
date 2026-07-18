@@ -1,4 +1,14 @@
-export const langs = {
+interface LangInfo {
+    message: string
+    fullName: string
+}
+
+interface RouteTypeInfo {
+    searchBy: string
+    structure: Record<string, 'string' | 'number' | 'object'>
+}
+
+export const langs: Record<string, LangInfo> = {
     en: {
         message: 'This is the endpoint of the English language',
         fullName: 'English'
@@ -25,7 +35,7 @@ export const langs = {
     }
 }
 
-export const routeTypes = {
+export const routeTypes: Record<string, RouteTypeInfo> = {
     books: {
         searchBy: 'title',
         structure: {

@@ -1,21 +1,24 @@
+import type { Request, Response } from 'express'
 import { routeTypes, langs } from './consts.js'
 
-const routeParamsAndReturn = params => {
-    let { req, res, data } = params
-    const { type: routeType } = req.params
-    let {
-        index,
-        max,
-        page,
-        search
-    } = req.query
+type DataItem = Record<string, any>
 
-    index = parseInt(index)
-    max = parseInt(max)
-    page = page ? parseInt(page) || 1 : undefined
+interface RouteParams {
+    req: Request
+    res: Response
+    data: DataItem[]
+}
+
+const routeParamsAndReturn = ({ req, res, data }: RouteParams) => {
+    const { type: routeType } = req.params
+    const { search } = req.query
+
+    const index = parseInt(req.query.index as string)
+    const max = parseInt(req.query.max as string)
+    const page = req.query.page ? parseInt(req.query.page as string) || 1 : undefined
 
     if(isNaN(index) && search) {
-        data = data.filter(item => item[routeTypes[routeType].searchBy].toLowerCase().includes(search.trim().toLowerCase()))
+        data = data.filter(item => item[routeTypes[routeType].searchBy].toLowerCase().includes((search as string).trim().toLowerCase()))
     }
 
     if(index || index === 0) {
@@ -35,47 +38,47 @@ const routeParamsAndReturn = params => {
     res.status(200).json(data)
 }
 
-const getFileData = async (lang, routeType) => {
+const getFileData = async (lang: string, routeType: string): Promise<DataItem[]> => {
     const { default: referenceData } = await import(`../assets/data/basefiles/${ routeType }.js`)
-    let { default: data } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
-    
-    data = data.map((item, i) => {
+    const { default: rawData } = await import(`../assets/data/${ lang }/${ routeType }.${ lang }.js`)
+
+    return (rawData as DataItem[]).map((item, i) => {
         item = { ...referenceData[i], ...item }
         item.index = i
         return item
     })
-
-    return data
 }
 
-export const routeStructure = async (req, res) => {
+export const routeStructure = async (req: Request, res: Response) => {
     const { type: routeType, lang } = req.params
 
     if(!Object.keys(routeTypes).includes(routeType)) return res.status(404).json({ error: 'Invalid type of data' })
     if(!Object.keys(langs).includes(lang)) return res.status(404).json({ error: 'Invalid language' })
-    
+
     try {
         const data = await getFileData(lang, routeType)
 
         routeParamsAndReturn({ req, res, data })
-    }catch({ message, code }) {
+    }catch(err) {
+        const { message, code } = err as { message?: string, code?: string }
         res.status(404).json({ error: message || code })
     }
 }
 
-export const pickRandomItem = async (req, res) => {
+export const pickRandomItem = async (req: Request, res: Response) => {
     const { lang, type: routeType } = req.params
 
     try {
         const data = await getFileData(lang, routeType)
 
         res.status(200).json(data[Math.floor(Math.random() * data.length)])
-    }catch({ message, code }) {
+    }catch(err) {
+        const { message, code } = err as { message?: string, code?: string }
         res.status(404).json({ error: message || code })
     }
 }
 
-export const pureLangRoute = (req, res) => {
+export const pureLangRoute = (req: Request, res: Response) => {
     const { lang } = req.params
 
     if(!Object.keys(langs).includes(lang)) return res.status(404).json({ error: 'Invalid language' })
@@ -89,7 +92,7 @@ export const pureLangRoute = (req, res) => {
     })
 }
 
-export const homePage = (req, res) => {
+export const homePage = (req: Request, res: Response) => {
     res.status(200).json({
         message: 'This is PotterAPI, a REST API that stores images and information about Harry Potter characters, books and spells. For more info about the routes and query params, visit the github repo.',
         repo: 'https://github.com/fedeperin/potterapi',

@@ -1,4 +1,4 @@
-export const areArraysEqual = (arr1, arr2) => {
+export const areArraysEqual = (arr1: string[], arr2: string[]): boolean => {
     if (arr1.length !== arr2.length) return false
 
     const sortedArr1 = [...arr1].sort()

@@ -3,3 +3,4 @@ TODO.md
 .env
 .vercel
 package-lock.json
+dist
