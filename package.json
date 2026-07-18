@@ -11,6 +11,9 @@
     "vercel-build": "npm run build",
     "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
